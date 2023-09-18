@@ -1,16 +1,17 @@
 # flutter_set_test
 
-A new Flutter project.
+This project is for Testing of SET Flutter project.
 
-## Getting Started
+The project list down the list of coins and also show the details of 
+coin in the next screen with comparing the price of coin with the
+selected currency.
 
-This project is a starting point for a Flutter application.
+Steps to run the project:
+1. Clone the project
+2. Run `flutter pub get`
+3. Run `dart run build_runner build`
+4. Run `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+** Due to the things to do in this project and spending time on UI and logic.
+so I may failed to complete the unit test cases.**
