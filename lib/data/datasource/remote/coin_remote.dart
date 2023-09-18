@@ -8,6 +8,9 @@ import 'request/each_coin_history_request.dart';
 import 'response/coin/coin_list_response.dart';
 import 'response/coin/each_coin_history_response.dart';
 
+/// Coin Remote
+/// The remote data source for the Coin feature.
+/// It is responsible for handling all the network calls.
 class CoinRemote {
   final Dio _dio;
 

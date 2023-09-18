@@ -16,8 +16,9 @@ import '../../../../util/service_exception.dart';
 part 'coin_event.dart';
 part 'coin_state.dart';
 
-/// Authen Status Account ::
-/// Format Response from API
+/// CoinBloc
+/// The CoinBloc is responsible for handling all the business logic of the Coin feature.
+/// It is responsible for handling the incoming events and updating the state accordingly.
 class CoinBloc extends Bloc<CoinEvent, CoinState> {
   late CoinListUseCase _coinListUseCase;
   late GetEachCoinHistoryUseCase _getEachCoinHistoryUseCase;
