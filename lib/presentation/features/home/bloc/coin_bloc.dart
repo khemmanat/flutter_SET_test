@@ -16,6 +16,8 @@ import '../../../../util/service_exception.dart';
 part 'coin_event.dart';
 part 'coin_state.dart';
 
+/// Authen Status Account ::
+/// Format Response from API
 class CoinBloc extends Bloc<CoinEvent, CoinState> {
   late CoinListUseCase _coinListUseCase;
   late GetEachCoinHistoryUseCase _getEachCoinHistoryUseCase;

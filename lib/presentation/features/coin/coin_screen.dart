@@ -7,6 +7,8 @@ import 'package:flutter_set_test/presentation/widgets/app_scaffold_view.dart';
 import '../../../common/di/app_dependency_injection.dart';
 import '../home/bloc/coin_bloc.dart';
 
+/// Coin screen of the app
+/// Display coin detail
 class CoinScreen extends StatefulWidget {
   const CoinScreen({super.key, required this.coinName, required this.coinId});
 

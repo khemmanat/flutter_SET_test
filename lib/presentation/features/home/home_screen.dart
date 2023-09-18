@@ -9,6 +9,8 @@ import '../../widgets/app_scaffold_view.dart';
 import '../coin/coin_screen.dart';
 import 'bloc/coin_bloc.dart';
 
+/// Home screen of the app
+/// Display list of coins
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
